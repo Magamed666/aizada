@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interior Design Services</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        .landing {
+            text-align: center;
+            padding: 50px 0;
+            background-color: #343a40;
+            color: #fff;
+        }
+
+        .landing h1 {
+            font-size: 42px;
+            margin-bottom: 20px;
+        }
+
+        .landing p {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        .landing button {
+            padding: 12px 24px;
+            font-size: 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .landing button:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .column {
+            flex-basis: calc(33.33% - 40px);
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .column h2 {
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+
+        .column p {
+            color: #666;
+        }
+
+        @media only screen and (max-width: 768px) {
+            .column {
+                flex-basis: calc(50% - 40px);
+            }
+        }
+
+        @media only screen and (max-width: 480px) {
+            .column {
+                flex-basis: calc(100% - 40px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="landing">
+        <h1>Welcome to Interior Design Services</h1>
+        <p>Transform your space with our expert interior design solutions</p>
+        <button>Contact Us</button>
+    </div>
+    <div class="container">
+        <div class="column">
+            <h2>Interior Design Consultation</h2>
+            <p>Get personalized advice and recommendations from our experienced designers.</p>
+        </div>
+        <div class="column">
+            <h2>Customized Decor Solutions</h2>
+            <p>Create a unique and stylish look for your home with our bespoke decor services.</p>
+        </div>
+        <div class="column">
+            <h2>Space Planning and Layout</h2>
+            <p>Optimize your living space with our expert space planning and layout design services.</p>
+        </div> 
+    </div>
+
+    <footer>
+        <p>Contact us for further details: 8(747)365-47-75 - Aizada</p>
+        <p>&copy; 2024 Interior Design Services. All rights reserved.</p>
+    </footer>
+</body>
+</html>
